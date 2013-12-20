@@ -37,19 +37,19 @@ Map { font-directory: url(./fonts); }
 /* LANDUSE & LANDCOVER COLORS
 /* ================================================================== */
 
-@land:              #FCFBE7;
-@water:             #C4DFF6;
-@grass:             #E6F2C1;
+@land:              #e5ddd6;
+@water:             #73b6e5;
+@grass:             #d0e6a8;
 @beach:             #FFEEC7;
-@park:              #DAF2C1;
+@park:              #cfde9e;
 @cemetery:          #D6DED2;
-@wooded:            #C3D9AD;
+@wooded:            #a0cc5c;
 @agriculture:       #F2E8B6;
 
-@building:          #E4E0E0;
-@hospital:          rgb(229,198,195);
-@school:            #FFF5CC;
-@sports:            #B8E6B8;
+@building:          #d3c5b6;
+@hospital:          #eedddb;
+@school:            #f3edd8;
+@sports:            #d0e6a8;
 
 @residential:       @land * 0.98;
 @commercial:        @land * 0.97;
@@ -69,21 +69,21 @@ Map { font-directory: url(./fonts); }
  *         inner fill (inline).
  */
 
-@motorway_line:     #E65C5C;
-@motorway_fill:     lighten(@motorway_line,10%);
-@motorway_case:     @motorway_line * 0.9;
+@motorway_line:     @land * 0.85;
+@motorway_fill:     #fff;
+@motorway_case:     @land * 0.9;
 
-@trunk_line:        #E68A5C;
-@trunk_fill:        lighten(@trunk_line,10%);
-@trunk_case:        @trunk_line * 0.9;
+@trunk_line:        @land * 0.85;
+@trunk_fill:        #fff;
+@trunk_case:        @land * 0.9;
 
-@primary_line:      #FFC859;
-@primary_fill:      lighten(@primary_line,10%);
-@primary_case:      @primary_line * 0.9;
+@primary_line:      @land * 0.85;
+@primary_fill:      #fff;
+@primary_case:      @land * 0.9;
 
-@secondary_line:    #FFE873;
-@secondary_fill:    lighten(@secondary_line,10%);
-@secondary_case:    @secondary_line * 0.9;
+@secondary_line:    @land * 0.85;
+@secondary_fill:    #fff;
+@secondary_case:    @land * 0.9;
 
 @standard_line:     @land * 0.85;
 @standard_fill:     #fff;
